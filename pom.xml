@@ -21,5 +21,24 @@
 	</parent>
 
 
+	<developers>
+		<developer>
+			<id>zhoucc</id>
+			<name>周成成</name>
+			<email>zhoucc9303@163.com</email>
+		</developer>
+	</developers>
+
+	<!--上传配置 -->
+	<distributionManagement>
+		<repository>
+			<id>develop-releases</id>
+			<url>http://101.132.181.141:8888/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>develop-snapshots</id>
+			<url>http://101.132.181.141:8888/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
